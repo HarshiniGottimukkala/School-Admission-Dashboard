@@ -1,0 +1,151 @@
+.sidebar-content {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    // background-color: #FF9F43;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(178, 180, 180);    
+
+    .list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        .sidebar-title{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 0 20px 0px;
+
+            .academy {
+                width:180px;
+                height: 30px;
+             }
+        }        
+
+
+        .sidebar-list {
+            width: 100%;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 10px;
+            padding: 20px 20px;
+            cursor: pointer;
+
+
+            .sidebar-list-item-show {
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 20px;
+                background-color: #edeff1   ;
+                
+
+                .icon-home
+                 {
+                    width: 40px;
+                    height: 40px;
+                    padding: 3.29px 5px 3.33px 5px;
+                    color: #FF9F43;
+                }
+
+                .link-item {
+                    font-family: Poppins;
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: #FF9F43;
+                }
+            }
+
+            .sidebar-list-item {
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 20px;
+
+                .icon-home {
+                    width: 40px;
+                    height: 40px;
+                    padding: 3.29px 5px 3.33px 5px;
+                    color: #7D8FB3;
+                }
+
+                .link-item {
+                    font-family: Poppins;
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: #7D8FB3;
+                }
+
+                &:hover {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 20px;
+                    
+
+                    .icon-home,
+                    .link-item {
+                        color: #FF9F43;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .logout {
+        width: 100%;
+
+        .sidebar-list-item {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 20px 20px;
+            gap: 20px;
+
+            .icon-home {
+                width: 40px;
+                height: 40px;
+                padding: 3.29px 5px 3.33px 5px;
+                color: #7D8FB3;
+            }
+
+            .link-item {
+                font-family: Poppins;
+                font-size: 15px;
+                font-weight: 500;
+                color: #7D8FB3;
+            }
+
+            &:hover {
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 20px;
+
+                .icon-home,
+                .link-item {
+                    color: #FF9F43;
+                }
+            }
+        }
+
+    }
+
+}

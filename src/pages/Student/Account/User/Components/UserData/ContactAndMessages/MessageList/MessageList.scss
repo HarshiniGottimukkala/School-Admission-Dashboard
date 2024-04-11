@@ -1,0 +1,133 @@
+.messages-content {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 22px;
+    padding: 20px;
+    border-radius: 18px;
+
+    .head-text {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        h1 {
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: 700;
+            color: #303972;
+        }
+
+    }
+
+    .search-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #A098AE;
+        border-radius: 16px;
+
+        input {
+            width: 90%;
+            padding: 5px;
+        }
+
+        ;
+
+    }
+
+    .messages {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+
+        .profile-of-student {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 10px;
+
+            .data {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                .sphere {
+                    background-color: #C1BBEB;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+
+                .name-details {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    flex-direction: column;
+
+                    .name {
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #303972;
+                    }
+
+                    .class {
+                        font-family: Poppins;
+                        font-size: 10px;
+                        font-weight: 400;
+                        color: #A098AE;
+                    }
+                }
+            }
+
+            .time {
+                font-family: Poppins;
+                font-size: 10px;
+                font-weight: 400;
+                color: #A098AE;
+            }
+        }
+
+        .horizontal {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: content;
+
+            hr {
+                width: 100%;
+                height: 2px;
+                color: #A098AE;
+            }
+        }
+    }
+
+    .viewmore {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #edeff1  ;
+        border-radius: 12px;
+        padding: 5px;
+        cursor: pointer;
+
+        h3 {
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: 600;
+            color: #FF9F43;
+        }
+    }
+}

@@ -1,0 +1,189 @@
+.students-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+
+    .add {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+
+        .newest,
+        .new-student {
+            text-transform: none;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #303972;
+            gap: 10px;
+            padding: 5px 20px;
+            border-radius: 18px;
+        }
+
+        .newest {
+            background-color: transparent;
+
+            p {
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 400;
+                color: #303972;
+            }
+        }
+
+        .new-student {
+            background-color: #303972;
+
+            p {
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 400;
+                color: white;
+            }
+        }
+    }
+
+    .data-table-content {
+        width: 100%;
+        background-color: white;
+
+        .headers {
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 600;
+            color: #303972;
+        }
+
+        .name{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 8px;
+
+            .image{
+             width: 30px;
+             height: 30px;
+             background-color: #edeff1 ; 
+             border-radius: 50%;  
+            }
+        }
+
+        .contact-icons{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+
+            .icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #edeff1;
+                border-radius: 50%;
+                padding: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .grade{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FF9F43;
+            border-radius: 18px;
+            padding: 5px;
+
+        }
+
+        .footer {
+            width: 100%;
+            height: 25px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding:30px  20px;
+    
+            p {
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+    
+                span{
+                    font-weight: 600;
+                }
+            }
+    
+        }
+    }
+
+    /* .popup-content {
+        margin: auto;
+        background: rgb(255, 255, 255);
+        width: 50%;
+        padding: 5px;
+      } */
+
+
+}
+
+.popup-content {
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // gap: 20px;
+    padding: 20px;
+    // opacity: 0.9;
+    // padding: 20px;
+    // border-radius: 10px;
+    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    .form-data{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        .add-new-student{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+    
+            .inputs{
+                width: 100%;
+                border: 1px solid #BBBBBB;
+                border-radius: 10px;
+                padding:10px  20px;
+            }
+            .inputs::placeholder{
+                font-family:Poppins;
+                color: #BBBBBB;
+           }
+    
+    
+            .input-submit{
+                font-family:Poppins;
+                background-color: #303972;
+                color: white;
+                padding:10px 20px;
+                border-radius: 10px;
+            }
+        }
+    }
+    
+}

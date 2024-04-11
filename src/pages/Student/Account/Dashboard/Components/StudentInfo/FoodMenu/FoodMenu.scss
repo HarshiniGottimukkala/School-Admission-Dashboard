@@ -1,0 +1,80 @@
+.food-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    gap: 20px;
+
+    .menu-head {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        h1 {
+            font-family: Poppins;
+            font-size: 15px;
+            color: #303972;
+        }
+    }
+
+    .items {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        .image {
+            width: 100%;
+
+            img {
+                border-radius: 18px;
+            }
+        }
+
+        .item-name {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            h2 {
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 600;
+                color: #303972;
+            }
+
+            p {
+                font-family: Poppins;
+                font-size: 10px;
+                font-weight: 400;
+                color: #A0B4D8;
+            }
+        }
+
+    }
+
+    .viewmore {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #edeff1  ;
+        border-radius: 12px;
+        padding: 5px;
+        cursor: pointer;
+
+        h3 {
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: 600;
+            color: #FF9F43;
+        }
+    }
+}

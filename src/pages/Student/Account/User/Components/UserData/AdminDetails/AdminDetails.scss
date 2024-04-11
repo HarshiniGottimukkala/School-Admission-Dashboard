@@ -1,0 +1,121 @@
+.admin-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+    }
+
+    .back-ground {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .picture {
+            width: 90px;
+            height: 90px;
+            background-color: #C1BBEB;
+            border-radius: 50%;
+            border: 5px solid white;
+            position: absolute;
+            top: 100px;
+            left: 20px;
+        }
+    }
+
+    .name-details {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 20px;
+
+        .name {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 5px;
+
+            h1 {
+                font-family: Poppins;
+                font-size: 32px;
+                font-weight: 700;
+                color: #303972;
+            }
+
+            p {
+                font-family: Poppins;
+                font-size: 15px;
+                // font-weight: 600;
+                color: #488BEE;
+            }
+
+            .location {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+
+                p {
+                    font-family: Poppins;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #A098AE;
+                }
+            }
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 5px;
+
+            p {
+                font-family: Poppins;
+                font-size: 15px;
+                font-weight: 400;
+                color: #A098AE;
+            }
+
+            .symbol {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+
+                .call {
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #FB7D5B;
+                    border-radius: 50%;
+                }
+
+                p {
+                    font-family: Poppins;
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: #4D44B5;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

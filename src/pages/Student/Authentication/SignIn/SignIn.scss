@@ -1,0 +1,224 @@
+.signin {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .activityImage {
+        width: 50%;
+        height: 100vh;
+        background: rgba(5, 87, 162, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 50px;
+
+        .rounded {
+            width: 525px;
+            height: 540px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background: linear-gradient(179.94deg, rgba(255, 255, 255, 0.06) -5.48%, rgba(255, 255, 255, 0) 96.9%);
+
+            .circle {
+                width: 367px;
+                height: 367px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) -25.29%, rgba(255, 255, 255, 0) 97.21%);
+            }
+
+            img {
+                width: 343px;
+                height: 409px;
+            }
+        }
+
+    }
+
+    .form {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 120px;
+
+        .content {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 10px;
+
+            h2 {
+                font-family: Montserrat;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 30px;
+                letter-spacing: 0.20000000298023224px;
+                color: rgba(125, 143, 179, 1);
+            }
+
+            .welcomenote {
+                color: rgba(125, 143, 179, 1);
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0px;
+            }
+        }
+
+        .forminputs {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+
+            .inputs {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                flex-direction: column;
+                gap: 10px;
+
+                .customTextField {
+                    width: 100%;
+                    border-radius: 20px;
+
+                    input {
+                        width: 100%;
+                        border-radius: 20px;
+                    }
+
+                    .MuiInputBase-input {
+                        padding: 15px 16px;
+                    }
+                }
+
+                .icon {
+                    width: 100%;
+                }
+
+                .forgotpassword {
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 22px;
+                    letter-spacing: 0px;
+                    color: rgba(5, 87, 162, 1);
+                }
+
+
+            }
+
+            Button {
+                padding: 8px;
+                border-radius: 12px;
+                text-transform: none;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 22px;
+                letter-spacing: 0.20000000298023224px;
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+
+        .horizontal {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            hr {
+                width: 138.5px;
+                border: 1px solid rgba(226, 232, 240, 1);
+            }
+
+            .para {
+                font-family: Montserrat;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 19px;
+                text-align: center;
+                color: rgba(125, 143, 179, 1)
+            }
+        }
+
+        .googlebutton {
+            border: 1px solid rgba(226, 232, 240, 1);
+            text-transform: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+
+            span {
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                color: rgba(59, 60, 61, 1);
+            }
+        }
+
+        .sign-up {
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: rgba(125, 143, 179, 1);
+
+            .signupbutton {
+                font-family: Inter;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: center;
+                color: rgba(5, 87, 162, 1);
+            }
+
+        }
+
+}
+
+
+
+
+    @media (max-width: 1270px) {
+        .form {
+            .horizontal {
+                gap: 7px;
+
+                .para {
+                    font-size: 10px;
+                }
+
+            }
+        }
+    }
+}
+

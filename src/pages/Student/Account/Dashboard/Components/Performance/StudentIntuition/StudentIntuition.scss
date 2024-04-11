@@ -1,0 +1,136 @@
+.student-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    // border: 2px solid #F8F8F8;
+
+
+    .heading-text {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        h1 {
+            font-size: 20px;
+            font-family: Poppins;
+            font-weight: 700;
+            color: #303972;
+        }
+    }
+
+    .student-data- {
+        width: 100%;
+        border-spacing: 0 10px;
+
+        .table-row {
+
+            .student-name {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 10px;
+
+                .round {
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    background-color: #C1BBEB;
+                }
+
+                .name {
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #7D8FB3;
+                }
+            }
+
+            .id {
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 600;
+                color: #A098AE;
+
+            }
+
+            .class {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 10px;
+
+                .profile-icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    color: #FFFFFF;
+                    background-color: #A020F0;
+                }
+
+                .section {
+                    p {
+                        font-family: Poppins;
+                        font-size: 12px;
+                        font-weight: 400;
+                        color: #A098AE;
+                    }
+
+                    h3 {
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #A098AE;
+                    }
+                }
+            }
+
+            .amount {
+                p {
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #7D8FB3;
+                }
+            }
+
+            .options {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                gap: 20px;
+
+            }
+        }
+    }
+
+    .end {
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            color: #7D8FB3;
+
+            span {
+                color: #7D8FB3;
+                font-weight: 600;
+            }
+        }
+
+    }
+}
